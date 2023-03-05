@@ -14,13 +14,13 @@ const Hero = () => {
                     </Col>
                     <Col lg={6}>
                         <div className='contact-icons'>
-                            <a as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
                                 <FaPhone />
                             </a>
-                            <a as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
+                            <a href="mailto:your-email@example.com" target="_blank" rel="noreferrer">
                                 <FaEnvelope />
                             </a>
-                            <a as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
+                            <a href="#" target="_blank" rel="noreferrer">
                                 <FaLocationArrow />
                             </a>
                         </div>
