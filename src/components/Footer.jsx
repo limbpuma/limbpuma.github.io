@@ -1,27 +1,32 @@
-import { Container } from 'react-bootstrap';
-import { FaPhone, FaEnvelope, FaLocationArrow } from 'react-icons/fa';
+import React from 'react';
+import { socialLinks } from '../data';
+import SocialLink from './SocialLinks';
 
 const Footer = () => {
-    return (
-        <div className='container'>
-            <footer className="footer">
-                <Container>
-                    <div className="contact-icons">
-                        <a as={Link} to="tel:555-555-5555">
-                            <FaPhone />
-                        </a>
-                        <a as={Link} to="mailto:info@example.com">
-                            <FaEnvelope />
-                        </a>
-                        <a as={Link} to="https://goo.gl/maps/example">
-                            <FaLocationArrow />
-                        </a>
-                    </div>
-                </Container>
-            </footer>
+  return (
+    <footer className="bg-dark text-white">
+      <div className="container py-4">
+        <div className="row">
+          <div className="col-md-6 text-center">
+            <h5 className="mb-3">Gracias por tu visita</h5>
+            <p>"Apasionado por la tecnología. Comprometido con su éxito."</p>
+            <hr className="border-light" />
+            <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+          </div>
+          <div className="col-md-6 text-center">
+            <h5 className="mb-3">Sígueme en redes sociales</h5>
+            <div className="d-flex justify-content-center align-items-center">
+              {socialLinks.slice(0, 3).map((link) => (
+                <ul key={link.id} className="list-unstyled mx-3">
+                  <SocialLink {...link} />
+                </ul>
+              ))}
+            </div>
+          </div>
         </div>
-    );
-}
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
-

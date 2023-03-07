@@ -2,7 +2,11 @@ import React from 'react';
 import MyNavbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/styles.css';
 
 
 function App() {
@@ -11,8 +15,9 @@ function App() {
       <MyNavbar />
       <Hero />
       <AboutMe />
-      <h1>Hola</h1>
-
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

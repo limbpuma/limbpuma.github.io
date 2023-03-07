@@ -1,65 +1,48 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Image1 from '../assets/image1.jpg';
+import { Row, Col } from 'react-bootstrap';
+import {titleSection, socialLinks, card } from '../data';
+import Card from './Card';
+import SocialLink from './SocialLinks';
+import TitleSection from './TitleSection';
 
 const AboutMe = () => {
     return (
-        <div className="container text-center aboutme-right">
-            <Container>
-                <Row>
-                    <Col lg={6}>
-                        <div className="row row-cols-1 row-cols-md-2 g-4">
-                            <div className="col">
-                                <div className="card">
-                                    <img src={Image1} className="card-img-top" alt="imgage-about" />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <img src={Image1} className="card-img-top" alt="imgage-about" />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <img src={Image1} className="card-img-top" alt="..." />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card">
-                                    <img src={Image1} className="card-img-top" alt="imgage-about" />
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg={6}>
-                        <div className="card aboutme-right">
-                            <img src={Image1} className="card-img-top" alt="imgage-about" />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a to="#" className="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+
+        <div className='container-aboutme'>
+            <div className='container-title-section'>
+          {titleSection.slice(0, 1).map((link) => (
+            <div className='' key={link.id}>
+              <TitleSection {...link} />
+            </div>
+          ))}
         </div>
+            <Row className='mx-auto justify-content-center align-items-center'>
+                <Col className='col-8'>
+                    <div className="row row-cols-md-2 g-2 mx-auto w-75 ">
+                        {card.slice(0, 4).map((link) => (
+                            <div className='border' key={link.id}>
+                                <Card {...link} />
+                            </div>
+                        ))}
+                    </div>
+                </Col>
+                <Col className='col-4'>
+                    {card.slice(3).map((link) => (
+                        <div className='w-100 border' key={link.id}>
+                            <Card {...link} />
+                            <div className="d-flex justify-content-center">
+                                {socialLinks.slice(0, 1).map((link) => (
+                                    <ul key={link.id}>
+                                        <SocialLink {...link} />
+                                    </ul>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </Col>
+            </Row>
+        </div>
+
     );
 }
 

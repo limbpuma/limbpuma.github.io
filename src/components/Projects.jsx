@@ -1,60 +1,38 @@
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { FaEnvelope, FaLocationArrow } from 'react-icons/fa';
-import Image1 from '../assets/image1.jpg';
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { card, socialLinks, titleSection } from '../data';
+import TitleSection from './TitleSection';
+import Card from './Card';
+import SocialLink from './SocialLinks';
+
 
 const Projects = () => {
     return (
-        <div className="projects d-flex align-items-center">
-            <Container>
-                <Row>
-                    <Col lg={4}>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={Image1} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={Image1} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
-                                    <FaEnvelope />
-                                </Button>
-                                <Button as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
-                                    <FaLocationArrow />
-                                </Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col lg={4}>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={Image1} />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
-                                </Card.Text>
-                                <Button as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
-                                    <FaEnvelope />
-                                </Button>
-                                <Button as={Link} to="https://www.linkedin.com/in/limber-martinez-0b5b1b1b9/" target="_blank" rel="noreferrer">
-                                    <FaLocationArrow />
-                                </Button>
-                            </Card.Body>
-                        </Card>
+        <div >
+            <Container className='container-projects'>
+            <div className='container-title-section'>
+          {titleSection.slice(0, 1).map((link) => (
+            <div className='' key={link.id}>
+              <TitleSection {...link} />
+            </div>
+          ))}
+        </div>
+            <Row className=''>
+                    <Col med={12} >
+                        <div className="row row-cols-1 row-cols-md-3 justify-content-around">
+                        {card.slice(0,3).map((link) => (
+                        <div className='d.flex-column w-25 border' key={link.id}>
+                            <Card {...link} />
+                            <div className="d-flex justify-content-center align-items-center mx-auto">
+                                {socialLinks.slice(0, 2).map((link) => (
+                                    <ul className="mx-auto" key={link.id}>
+                                        <SocialLink {...link} />
+                                    </ul>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                            </div>
                     </Col>
                 </Row>
             </Container>

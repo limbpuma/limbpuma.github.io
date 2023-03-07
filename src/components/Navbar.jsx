@@ -1,4 +1,5 @@
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
+import PageLinks from './PageLinks';
 import { Link } from 'react-router-dom';
 
 const MyNavbar = () => {
@@ -9,19 +10,7 @@ const MyNavbar = () => {
           Limber Martinez
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link to="/">
-              About
-            </Nav.Link>
-            <Nav.Link to="/">
-              Projects
-            </Nav.Link>
-            <Nav.Link to="/">
-              Contact
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <PageLinks />
       </Container>
     </Navbar>
   );
