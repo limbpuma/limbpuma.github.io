@@ -1,0 +1,99 @@
+/* Colors */
+:root {
+  --primary-color: #CBE4DE;
+  --secondary-color: #0E8388;
+  --tertiary-color: #2E4F4F;
+  --quaternary-color: #2C3333;
+}
+
+/* Fonts */
+:root {
+  --main-font-family: 'Quicksand', sans-serif;
+  --secondary-font-family: 'sans-serif';
+}
+
+/* General CSS */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Text Transform */
+:root {
+  --uppercase-text: uppercase;
+}
+
+/* Typography */
+:root {
+  --font-size-xxxl: 6.8rem;
+  --font-size-xxl: 4.8rem;
+  --font-size-xl: 3.6rem;
+  --font-size-l: 2.4rem;
+  --font-size-m: 1.8rem;
+  --font-size-s: 1.6rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+}
+
+/* Headings */
+h1 {
+  font-size: calc(var(--font-size-xxl) / 1.6); /* 4.8rem / 1.6 = 3rem */
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  text-transform: var(--uppercase-text);
+}
+
+h2 {
+  font-size: calc(var(--font-size-xl) / 1.6); /* 3.6rem / 1.6 = 2.25rem */
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  text-transform: var(--uppercase-text);
+}
+
+h3 {
+  font-size: calc(var(--font-size-l) / 1.6); /* 2.4rem / 1.6 = 1.5rem */
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  text-transform: var(--uppercase-text);
+}
+
+h4 {
+  font-size: calc(var(--font-size-m) / 1.6); /* 1.8rem / 1.6 = 1.125rem */
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  text-transform: var(--uppercase-text);
+}
+
+h5 {
+  font-size: calc(var(--font-size-s) / 1.6); /* 1.6rem / 1.6 = 1rem */
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  text-transform: var(--uppercase-text);
+}
+
+/* Spacing */
+:root {
+  --spacing-xl: 3.2rem;
+  --spacing-l: 2.4rem;
+  --spacing-m: 1.6rem;
+  --spacing-s: 1.2rem;
+}
+
+/* Border radius */
+:root {
+  --border-radius: 0.4rem;
+}
+
+.card,
+.jumbotron,
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: transparent;
+}

@@ -4,7 +4,7 @@ import SocialLink from './SocialLinks';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="text-white">
       <div className="container py-4">
         <div className="row">
           <div className="col-md-6 text-center">
