@@ -1,9 +1,9 @@
 /* Colors */
 :root {
-  --primary-color: #CBE4DE;
-  --secondary-color: #0E8388;
-  --tertiary-color: #2E4F4F;
-  --quaternary-color: #2C3333;
+  --primary-color: #4D455D;
+  --secondary-color: #7DB9B6;
+  --tertiary-color: #E96479;
+  --quaternary-color: #F5E9CF;
 }
 
 /* Fonts */
@@ -86,14 +86,8 @@ h5 {
 
 /* Border radius */
 :root {
-  --border-radius: 0.4rem;
+  --border-radius: 0.9rem;
+  --border: 0.3rem;
 }
 
-.card,
-.jumbotron,
-.modal-content,
-.modal-header,
-.modal-body,
-.modal-footer {
-  background-color: transparent;
-}
+

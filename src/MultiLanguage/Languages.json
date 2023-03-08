@@ -1,0 +1,236 @@
+{
+    "en": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact",
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "formLabelText": "Email address",
+      "formExampleText": "Example-textarea",
+    "formButton": "Send",
+    "heroSection": {
+        "1": {
+            "title": "Title 1",
+            "subtitle": "Subtitle 1"
+        }
+        },
+      "titleSection": {
+      "1": {
+        "title": "Title 1",
+        "subtitle": "Subtitle 1"
+      },
+      "2": {
+        "title": "Title 2",
+        "subtitle": "Subtitle 2"
+      },
+      "3": {
+        "title": "Title 3",
+        "subtitle": "Subtitle 3"
+      },
+      "4": {
+        "title": "Title 4",
+        "subtitle": "Subtitle 4"
+      }
+    },
+      "card": {
+        "1": {
+          "title": "Card Title 1",
+          "text": "Card Text 1"
+        },
+        "2": {
+          "title": "Card Title 2",
+          "text": "Card Text 2"
+        },
+        "3": {
+          "title": "Card Title 3",
+          "text": "Card Text 3"
+        },
+        "4": {
+          "title": "Card Title 4",
+          "text": "Card Text 4"
+        },
+        "5": {
+          "title": "Card Title 5",
+          "text": "Card Text 5"
+        },
+        "6": {
+          "title": "Card Title 6",
+          "text": "Card Text 6"
+        },
+        "7": {
+          "title": "Card Title 7",
+          "text": "Card Text 7"
+        },
+        "8": {
+          "title": "Card Title 8",
+          "text": "Card Text 8"
+        },
+        "9": {
+          "title": "Card Title 9",
+          "text": "Card Text 9"
+        },
+        "10": {
+          "title": "Card Title 10",
+          "text": "Card Text 10"
+        }
+      },
+      
+      "de": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "projects": "Projekte",
+        "contact": "Kontakt",
+        "title": "Titel",
+        "subtitle": "Untertitel",
+        "formLabelText": "E-Mail-Adresse",
+        "formExampleText": "Beispiel-Textfeld",
+        "formButton": "Senden",
+        "heroSection": {
+          "1": {
+            "title": "Titel 1",
+            "subtitle": "Untertitel 1"
+          }
+        },
+        "titleSection": {
+          "1": {
+            "title": "Titel 1",
+            "subtitle": "Untertitel 1"
+          },
+          "2": {
+            "title": "Titel 2",
+            "subtitle": "Untertitel 2"
+          },
+          "3": {
+            "title": "Titel 3",
+            "subtitle": "Untertitel 3"
+          },
+          "4": {
+            "title": "Titel 4",
+            "subtitle": "Untertitel 4"
+          }
+        },
+        "card": {
+          "1": {
+            "title": "Kartentitel 1",
+            "text": "Kartentext 1"
+          },
+          "2": {
+            "title": "Kartentitel 2",
+            "text": "Kartentext 2"
+          },
+          "3": {
+            "title": "Kartentitel 3",
+            "text": "Kartentext 3"
+          },
+          "4": {
+            "title": "Kartentitel 4",
+            "text": "Kartentext 4"
+          },
+          "5": {
+            "title": "Kartentitel 5",
+            "text": "Kartentext 5"
+          },
+          "6": {
+            "title": "Kartentitel 6",
+            "text": "Kartentext 6"
+          },
+          "7": {
+            "title": "Kartentitel 7",
+            "text": "Kartentext 7"
+          },
+          "8": {
+            "title": "Kartentitel 8",
+            "text": "Kartentext 8"
+          },
+          "9": {
+            "title": "Kartentitel 9",
+            "text": "Kartentext 9"
+          },
+          "10": {
+            "title": "Kartentitel 10",
+            "text": "Kartentext 10"
+          }
+        }
+      }
+
+    },
+    "es": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "title": "Título",
+        "subtitle": "Subtítulo",
+        "formLabelText": "Correo electrónico",
+        "formExampleText": "Ejemplo-texto",
+        "formButton": "Enviar",
+        "heroSection": {
+        "1": {
+        "title": "Título 1",
+        "subtitle": "Subtítulo 1"
+        }
+        },
+        "titleSection": {
+        "1": {
+        "title": "Título 1",
+        "subtitle": "Subtítulo 1"
+        },
+        "2": {
+        "title": "Título 2",
+        "subtitle": "Subtítulo 2"
+        },
+        "3": {
+        "title": "Título 3",
+        "subtitle": "Subtítulo 3"
+        },
+        "4": {
+        "title": "Título 4",
+        "subtitle": "Subtítulo 4"
+        }
+        },
+        "card": {
+        "1": {
+        "title": "Título de la tarjeta 1",
+        "text": "Texto de la tarjeta 1"
+        },
+        "2": {
+        "title": "Título de la tarjeta 2",
+        "text": "Texto de la tarjeta 2"
+        },
+        "3": {
+        "title": "Título de la tarjeta 3",
+        "text": "Texto de la tarjeta 3"
+        },
+        "4": {
+        "title": "Título de la tarjeta 4",
+        "text": "Texto de la tarjeta 4"
+        },
+        "5": {
+        "title": "Título de la tarjeta 5",
+        "text": "Texto de la tarjeta 5"
+        },
+        "6": {
+        "title": "Título de la tarjeta 6",
+        "text": "Texto de la tarjeta 6"
+        },
+        "7": {
+        "title": "Título de la tarjeta 7",
+        "text": "Texto de la tarjeta 7"
+        },
+        "8": {
+        "title": "Título de la tarjeta 8",
+        "text": "Texto de la tarjeta 8"
+        },
+        "9": {
+        "title": "Título de la tarjeta 9",
+        "text": "Texto de la tarjeta 9"
+        },
+        "10": {
+        "title": "Título de la tarjeta 10",
+        "text": "Texto de la tarjeta 10"
+        }
+        }
+    }
+  }
+  

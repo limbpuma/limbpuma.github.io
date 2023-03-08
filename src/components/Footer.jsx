@@ -1,25 +1,26 @@
 import React from 'react';
-import { socialLinks } from '../data';
+import { socialLinks, footer } from '../data';
 import SocialLink from './SocialLinks';
 
 const Footer = () => {
+  const { footerTitle, footerText, footerText2, footerFollow } = footer[0];
   return (
-    <footer className="text-white">
-      <div className="container py-4">
+    <footer className="container-footer">
+      <div className="container py-5">
         <div className="row">
           <div className="col-md-6 text-center">
-            <h5 className="mb-3">Gracias por tu visita</h5>
-            <p>"Apasionado por la tecnología. Comprometido con su éxito."</p>
+            <h5 className="mb-3">{footerTitle}</h5>
+            <h5>{footerText}</h5>
             <hr className="border-light" />
-            <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+            <h5>{footerText2}</h5>
           </div>
           <div className="col-md-6 text-center">
-            <h5 className="mb-3">Sígueme en redes sociales</h5>
+            <h5 className="mb-3">{footerFollow}</h5>
             <div className="d-flex justify-content-center align-items-center">
               {socialLinks.slice(0, 3).map((link) => (
-                <ul key={link.id} className="list-unstyled mx-3">
+                <div key={link.id} className="">
                   <SocialLink {...link} />
-                </ul>
+                </div>
               ))}
             </div>
           </div>

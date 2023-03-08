@@ -1,10 +1,10 @@
-import '../styles/styles.css';
+
 
 const SocialLink = ({ iconText, href, iconClass, iconColor, path }) => {
   return (
     <div className='row'>
-      <div className='col-sm-6 col-md-4 col-lg-3'>
-        <button type='button' className='btn btn-primary btn-social'>
+      <div className='text-center'>
+        <button type='button' className='btn-social mb-1'>
           <a href={href}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -16,8 +16,8 @@ const SocialLink = ({ iconText, href, iconClass, iconColor, path }) => {
               <path d={path} />
             </svg>
           </a>
-          <p>{iconText}</p>
         </button>
+        <p className='button-social-text'>{iconText}</p>
       </div>
     </div>
   );

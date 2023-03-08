@@ -3,13 +3,13 @@ import { Card } from 'react-bootstrap';
 
 const TitleSection = ({ title, subTitle }) => {
   return (
-    <Card className='border-0'>
+    <Card className='border-1' style={{ background: 'transparent' }}>
       <Card.Body className='text-center'>
         <Card.Title className='section-title'>
-          {title}
+          <h1>{title}</h1>
         </Card.Title>
         <Card.Text className='section-subtitle mb-2 text-muted'>
-        <p><span>{subTitle}</span></p>
+        <h5><span>{subTitle}</span></h5>
         </Card.Text>
       </Card.Body>
     </Card>
