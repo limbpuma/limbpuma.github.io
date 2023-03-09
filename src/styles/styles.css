@@ -17,7 +17,11 @@ a.nav-link{
   border-radius: var(--border-radius);
   margin-left: 1rem;
   width: 8rem;
+  height: 4rem;
   text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 a.nav-link:hover{
   background-color: var(--secondary-color);
