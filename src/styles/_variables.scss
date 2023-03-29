@@ -1,14 +1,15 @@
 /* Colors */
 :root {
-  --primary-color: #4D455D;
-  --secondary-color: #7DB9B6;
-  --tertiary-color: #E96479;
-  --quaternary-color: #F5E9CF;
+  --primary-color: #F36962;
+  --secondary-color: #6F5A93;
+  --tertiary-color: #343841;
+  --quaternary-color: #57A5B4;
+  --white-color: #fff;
 }
 
 /* Fonts */
 :root {
-  --main-font-family: 'Quicksand', sans-serif;
+  --main-font-family: 'Roboto', sans-serif;
   --secondary-font-family: 'sans-serif';
 }
 
@@ -38,6 +39,8 @@ html {
   --font-size-s: 1.6rem;
   --font-weight-bold: 700;
   --font-weight-regular: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
 }
 
 /* Headings */
@@ -86,8 +89,14 @@ h5 {
 
 /* Border radius */
 :root {
-  --border-radius: 0.9rem;
+  --border-radius: 1rem;
   --border: 0.3rem;
 }
 
+/*Transition */
+:root {
+--transition: all 0.3s ease-in-out;
+--transform: scale(1.02);
+--box-shadow:  0 0 1rem 0.15rem;
+}
 

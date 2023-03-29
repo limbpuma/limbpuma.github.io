@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import MyNavbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
@@ -8,10 +9,9 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 
-
 function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <MyNavbar />
       <Hero />
       <AboutMe />

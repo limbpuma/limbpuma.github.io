@@ -1,22 +1,22 @@
 import React from 'react';
-import { socialLinks, footer } from '../data';
+import { socialLinks } from '../data';
 import SocialLink from './SocialLinks';
-
+import { useTranslation } from "react-i18next";
+import i18n from "../translation/i18n";
 const Footer = () => {
-  const { footerTitle, footerText, footerText2, footerFollow } = footer[0];
+  const { t } = useTranslation();
   return (
-    <footer className="container-footer">
-      <div className="container py-5">
-        <div className="row">
+      <div className="container-footer">
+        <div className="row mx-auto">
           <div className="col-md-6 text-center">
-            <h5 className="mb-3">{footerTitle}</h5>
-            <h5>{footerText}</h5>
+            <h5 className="">{t("footerSection.footerTitle")}</h5>
+            <h5>{t("footerSection.footerText")}</h5>
             <hr className="border-light" />
-            <h5>{footerText2}</h5>
+            <h5>{t("footerSection.footerText2")}</h5>
           </div>
-          <div className="col-md-6 text-center">
-            <h5 className="mb-3">{footerFollow}</h5>
-            <div className="d-flex justify-content-center align-items-center">
+          <div className="col-md-6 text-center mx-auto">
+            <h5 className="">{t("footerSection.follow")}</h5>
+            <div className="socialLinkFooter d-flex justify-content-center align-items-center">
               {socialLinks.slice(0, 3).map((link) => (
                 <div key={link.id} className="">
                   <SocialLink {...link} />
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+
   );
 };
 

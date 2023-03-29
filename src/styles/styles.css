@@ -1,55 +1,113 @@
 /* Import variables */
 @import "./_variables.scss";
 
-body {
-  background-color: var(--primary-color);
+body{
+  background-color: var(--background-color);
 }
-.container-hero{
-  margin-bottom: 4rem;
+.card-img{
+  height: 70vh;
+  width: 70vw;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-title{
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color)!important;
+  text-align: center;
+  margin: 1rem;
+}
+.hero-subtitle{
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-600);
+  color: var(--tertiary-color)!important;
+  text-align: center;
+  margin: 1rem;
+}
+.hero-litle-text{
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-600);
+  color: var(--primary-color);
+  text-align: center;
+  margin: 1rem;
 }
 a.nav-link{
-  font-size: calc(var(--font-size-m) / 1.6);
+  padding: 1rem;
+  font-size: var(--font-size-s);
   font-weight: var(--font-weight-bold);
   text-transform: var(--uppercase-text);
-  color: var(--secondary-color);
+  color: var(--white-color);
   background-color: var(--primary-color);
-  border: var(--border) solid var(--tertiary-color);
-  border-radius: var(--border-radius);
   margin-left: 1rem;
-  width: 8rem;
+  width: 10rem;
   height: 4rem;
   text-align: center;
   display: flex;
     align-items: center;
     justify-content: center;
 }
-a.nav-link:hover{
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  transition: all 0.3s ease-in-out;
-  border: var(--border) solid var(--quaternary-color);
-}
 p {
-  color: var(--primary-color);
   font-family: var(--main-font-family);
-  font-size: var(--font-size-s);
-  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-600);
 }
-.section-title {
-  font-size: var(--font-size-xxxl);
+/*Title section*/
+.section-title{
+  font-size: var(--font-size-xxl);
   font-weight: var(--font-weight-bold);
-  text-align: center;
-  text-shadow: 0.2rem 0.3rem 0.2rem #474747,
-    0.7rem -0.2rem 0.8rem rgba(203, 228, 222, 0.07);
-  text-transform: var(--uppercase-text);
 }
-.card-custom {
-  background-color: var(--secondary-color);
-  border: var(--border) solid var(--tertiary-color);
+.about-title-section{
+  color: var(--white-color);
+  text-align: center;
+  margin: 1rem;
+}
+.about-title-section span{
+  color: var(--primary-color);
+}
+.project-title-section{
+  color: var(--white-color);
+  text-align: center;
+  margin: 1rem;
+}
+.project-title-section span{
+  color: var(--secondary-color);
+}
+.contact-title-section{
+  color: var(--tertiary-color);
+  text-align: center;
+  margin: 1rem;
+}
+.contact-title-section span{
+  color: var(--secondary-color);
+}
+
+/*Title section End*/
+.aboutme-title-about{
+  color: var(--white-color);
+  }
+  .aboutme-subtitle-about{
+    padding: 2rem;
+    margin-top: 1rem;
+  color: var(--white-color);
+  }
+.card-aboutme {
+  color: var(--secondary-color);
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+.card-aboutme p{
+  color: var(--secondary-color);
+  margin: 0;
+}
+.card-projects{
+  color: var(--secondary-color);
+  transition: var(--transition);
+  margin-top: 5rem;
+  background-color: var(--white-color);
   border-radius: var(--border-radius);
   box-shadow: 0.2rem 0.3rem 0.2rem #474747,
     0.7rem -0.2rem 0.8rem rgba(203, 228, 222, 0.07);
-  margin: 1rem;
 }
 .btn-social {
   display: flex;
@@ -62,41 +120,256 @@ p {
   border: var(--border) solid var(--tertiary-color);
   border-radius: var(--border-radius);
 }
-.btn-social:hover {
-  background-color: var(--secondary-color);
-  transition: all 0.3s ease-in-out;
-  border: var(--border) solid var(--quaternary-color);
-}
-.card-button-about div div button {
-  width: 16rem;
-}
 .button-social-text {
   margin-top: 0.2rem;
   font-size: var(--font-size-s);
   font-weight: var(--font-weight-bold);
 }
 .container-contact-form{
-  background-color: var(--secondary-color);
+  background-color: var(--quaternary-color);
   padding: 4rem;
   border:var(--border) solid var(--tertiary-color);
   border-radius: var(--border-radius);
-  margin: 4rem auto;
+}
+.btn-custom{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-m);
+  transition: var(--transition);
+}
+.row-hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.container-hero{
+  display: flex;
+  /*max-height: 80rem;*/
+  flex-direction: column;
+  justify-content: center;
+}
+.container-aboutme{
+  background-color: var(--secondary-color);
+  display: flex;
+  height: 60rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-projects{
+  background-color: var(--tertiary-color);
+  display: flex;
+  height: 60rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-contact{
+  background-color: var(--tertiary-color);
+  display: flex;
+  height: 60rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-contact-form{
+  margin-top: 4rem;
+}
+.container-footer{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.social-icon{
+  margin: 1rem 0;
+  border-radius: var(--border-radius);
+  height: 6rem;
+  width: 6rem;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+}
+.socialLinkAbout a{
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  cursor: default;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom right, transparent 50%, var(--tertiary-color) 50%);
+  background-position: 0 0;
+  background-size: 200% 200%;
+}
+.socialLinkAboutCard a{
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  transition: var(--transition);
+  transform: var(--transform);
+  margin: 2rem 0;
+}
+.socialLinkProject a{
+  background-color: var(--tertiary-color);
+  color: var(--white-color);
+  transition: var(--transition);
+  transform: var(--transform);
+  cursor: pointer;
+}
+.contact-form-label{
+  font-size: var(--font-size-l);
+}
+.contact-label-textarea {
+  font-size: var(--font-size-l);
+}
+.socialLinkFooter a{
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--white-color);
+  color: var(--primary-color);
 }
 
 /* para dispositivos pequeños, como teléfonos móviles */
 @media (max-width: 576px) {
-  .hero-img {
-    height: 30rem;
+  .container-nabvar{
+    height: max-content;
+    }
+    .card-img {
+      margin-top: 0;
+      height: 100vh;
+      width: 100%;
+    }
+  .container-hero{
+    margin: 6rem 0;
+    height: max-content;
+  }
+  .container-aboutme{
+    padding: 4rem 0;
+    margin: 6rem 0;
+    height: max-content;
+  }
+  .container-projects{
+    padding: 4rem 0;
+    margin: 6rem 0;
+    height: max-content;
+  }
+  .container-contact{
+    margin: 6rem 0;
+    height: max-content;
+    background-color: var(--white-color);
+  }
+  .container-contact-form{
+    margin: 6rem 0;
+    height: max-content;
+  }
+  .container-footer{
+    padding: 4rem 0;
+    margin-top: 6rem;
+    height: max-content;
   }
 }
 
 /* para dispositivos medianos, como tablets */
 @media (min-width: 576px) and (max-width: 992px) {
-  .hero-img {
-    height: 50rem;
-  }
+
 }
 
 /* para dispositivos grandes, como laptops y pantallas de escritorio */
 @media (min-width: 992px) {
+  .container-hero{
+    height: 78rem;
+  }
+  .container-nabvar{
+    background-color: var(--primary-color);
+    }
+  .container-aboutme{
+    background-color: var(--secondary-color);
+    display: flex;
+    height: 78rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-projects{
+    background-color: var(--tertiary-color);
+    display: flex;
+    height: 78rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-contact{
+    background-color: var(--background-color);
+    display: flex;
+    height: 70rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-contact-form{
+    margin-top: 5rem;
+    width: 75%;
+  }
+  .container-footer{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    height: 12rem;
+    align-items: center;
+    padding: 2rem;
+  }
+  .card-project-container{
+    justify-content: space-around;
+  }
+  /*Title section*/
+.section-title{
+  font-size: var(--font-size-xxxl);
+  font-weight: var(--font-weight-bold);
+}
+/*Title section End*/
+  a.nav-link:hover{
+    color: var(--white-color);
+    background-color: var(--quaternary-color);
+    transition: var(--transition);
+  }
+  .card-aboutme:hover,
+.card-projects:hover{
+  transform: var(--transform);
+  transition: var(--transition);
+  box-shadow: var(--box-shadow) var(--white-color);
+}
+.btn-social:hover {
+  background-color: var(--secondary-color);
+  transition: var(--transition);
+  border: var(--border) solid var(--quaternary-color);
+}
+.socialLinkAbout a:hover{
+  color: var(--white-color);
+  background-position: 100% 100%;
+  background-clip: padding-box;
+  transition: var(--transition);
+}
+.socialLinkAboutCard a:hover{
+  background-color: var(--tertiary-color);
+  color: var(--white-color);
+  transition: var(--transition);
+  transform: var(--transform);
+  box-shadow: var(--box-shadow) var(--secondary-color);
+}
+.socialLinkProject a:hover{
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  transition: var(--transition);
+  transform: var(--transform);
+  box-shadow: var(--box-shadow) var(--tertiary-color);
+}
+.btn-custom:hover{
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow) var(--white-color);
+    transition: var(--transition);
+    transform: var(--transform);
+  }
+  .socialLinkFooter a:hover{
+    background-color: var(--quaternary-color);
+    color: var(--white-color);
+    transition: var(--transition);
+    transform: var(--transform);
+    box-shadow: var(--box-shadow) var(--white-color);
+  
+  }
 }

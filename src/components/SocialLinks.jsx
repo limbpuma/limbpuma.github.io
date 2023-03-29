@@ -1,23 +1,21 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-const SocialLink = ({ iconText, href, iconClass, iconColor, path }) => {
+const SocialLink = ({ href, iconClass, iconText, size}) => {
   return (
     <div className='row'>
       <div className='text-center'>
-        <button type='button' className='btn-social mb-1'>
-          <a href={href}>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='20'
-              height='20'
-              fill={iconColor}
-              className={iconClass}
-              viewBox='0 0 16 16'>
-              <path d={path} />
-            </svg>
+        <ul>
+          <a
+            href={href}
+            target="_blank"
+            className="social-icon text-decoration-none d-flex flex-column justify-content-center align-items-center mx-auto"
+            rel="noreferrer">
+            <FontAwesomeIcon icon={iconClass} size={size} color="iconColor"/>
+            <span className="iconTextColor text-uppercase mt-2">{iconText}</span>
           </a>
-        </button>
-        <p className='button-social-text'>{iconText}</p>
+        </ul>
       </div>
     </div>
   );

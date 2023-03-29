@@ -1,42 +1,46 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { titleSection, socialLinks, card } from '../data';
+import { socialLinks, card } from '../data';
 import Card from './Card';
 import SocialLink from './SocialLinks';
 import TitleSection from './TitleSection';
 
+import { useTranslation } from "react-i18next";
+
 
 const AboutMe = () => {
+
+  const { t } = useTranslation();
+
   return (
-    <div className='container-fluid container-aboutme'>
-      <div className='container-title-section'>
-        {titleSection.slice(0, 1).map((link) => (
-          <div className='' key={link.id}>
-            <TitleSection {...link} />
-          </div>
-        ))}
+    <div className='container-aboutme'>
+      <div className='about-title-section'>
+
+            <TitleSection title={t("titleSection.0.title")} subtitle={t("titleSection.0.subtitle")}/>
       </div>
-      <Row className='aboutme mx-auto justify-content-center align-items-center mb-3'>
-        <Col className='aboutme-left col-12 col-md-8 col-lg-6 p-5'>
-          <div className="row row-cols-md-2 mx-auto w-100 g-5">
-            {card.slice(0, 4).map((link) => (
-              <div className='' key={link.id}>
-                <Card {...link} />
+      <Row className='aboutme mx-auto justify-content-center align-items-center p-3'>
+        <Col className='aboutme-left col-12 col-md-6 col-lg-6 mx-auto'>
+          <h1 className='aboutme-title-about text-center'>{t("aboutSection.title")}</h1>
+          <p className='aboutme-subtitle-about text-center'>{t("aboutSection.subTitle")}</p>
+          <div className="socialLinkAbout d-flex justify-content-center">
+            {socialLinks.slice(3, 8).map((link) => (
+              <div key={link.id}>
+                <SocialLink {...link} />
               </div>
             ))}
           </div>
         </Col>
-        <Col className='aboutme-right col-12 col-md-4 col-lg-3 mx-auto'>
-          {card.slice(3,4).map((link) => (
-            <div className='w-100 border mb-3 p-2 border-0' key={link.id}>
-              <Card {...link} />
-              <div className="d-flex justify-content-center">
-                {socialLinks.slice(0, 1).map((link) => (
-                  <ul key={link.id}>
-                    <SocialLink {...link} />
-                  </ul>
-                ))}
-              </div>
+        <Col className='card-aboutme col-12 col-md-3 col-lg-3 mx-auto'>
+          {card.slice(0,1).map((link) => (
+            <div  key={link.id}>
+              <Card {...link}  title={t(`cardtext.${link.id}.title`)} text={t(`cardtext.${link.id}.text`)}/>
+              <div className="socialLinkAboutCard d-flex justify-content-center align-items-center">
+              {socialLinks.slice(0, 1).map((link) => (
+                <div key={link.id}>
+                  <SocialLink {...link} />
+                </div>
+              ))}
+            </div>
             </div>
           ))}
         </Col>

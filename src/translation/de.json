@@ -1,0 +1,91 @@
+{
+  "heroSection": {
+    "title": "Hallo!",
+    "subTitle": "I'm Limber Martinez",
+    "smallText": "Full Stack Developer"
+  },
+  "aboutSection":{
+    "title": "from Translate",
+    "subTitle": "Loremi ipsum dolor sit amet, consectetur adipisicing elit. Rem maiores fugit perferendis velit odio ipsa at, provident quidem, accusamus, sequi id aut laboriosam dolores. Nisi ipsa corrupti odio voluptas quae!"
+  },
+  "contactSection": {
+    "formLabelText": "Email address",
+    "formExampleText": "Example textarea",
+    "Submit": "Submit"
+  },
+  "footerSection": {
+    "footerTitle": "Thank You for your visit",
+    "footerText": "Passionate about technology. Committed to your success.'",
+    "footerText2": "© 2023 - All Rights Reserved",
+    "follow": "Follow Me"
+  },
+  "pageLinks": [
+    {
+      "id": 0,
+      "text": "home"
+    },
+    {
+      "id": 1,
+      "text": "about"
+    },
+    {
+      "id": 2,
+      "text": "projects"
+    },
+    {
+      "id": 3,
+      "text": "contact"
+    }
+  ],
+  "titleSection": [
+    {
+      "id": 0,
+      "title": "ENitulo1",
+      "subtitle": "1Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": 1,
+      "title": "ENitulo2",
+      "subtitle": "1Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": 2,
+      "title": "ENitulo3",
+      "subtitle": "1Lorem ipsum dolor sit amet"
+    }
+  ],
+  "cardtext": [
+    {
+      "id": 0,
+      "title": "Titulo1",
+      "text": "1Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    {
+      "id": 1,
+      "title": "Titulo2",
+      "text": "2Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+    },
+    {
+      "id": 2,
+      "title": "Titulo3",
+      "text": "3Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    {
+      "id": 3,
+      "title": "Titulo4",
+      "text": "4Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    {
+      "id": 4,
+      "title": "Titulo5",
+      "text": "5Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+    },
+    {
+      "id": 5,
+      "title": "Titulo6",
+      "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    }
+  ]
+}
+
+  
