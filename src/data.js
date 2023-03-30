@@ -117,50 +117,52 @@ export const socialLinks = [
     cardId: 2 // indicamos a qué card corresponde este link
   },
 ];
-export const projectLink = [
-  {
-    id: 0,
-    href: "https://www.github.com",
-    iconClass: faGithub,
-    iconText: "Github",
-    size: "2xl",
-  },
-  {
-    id: 1,
-    href: "https://www.github.com",
-    iconClass: faEarthAmericas,
-    iconText: "web",
-    size: "2xl",
-  },
-  {
-    id: 2,
-    href: "https://www.github.com",
-    iconClass: faGithub,
-    iconText: "github",
-    size: "2xl",
-  },
-  {
-    id: 3,
-    href: "https://www.github.com",
-    iconClass: faGithub,
-    iconText: "Linkedin",
-    size: "2xl",
-  },
-  {
-    id: 4,
-    href: "https://www.github.com",
-    iconClass: faGithub,
-    iconText: "Notion",
-    size: "2xl",
-  },
-  {
-    id: 5,
-    href: "https://www.github.com",
-    iconClass: faGithub,
-    iconText: "github",
-    size: "2xl",
-  },
-];
+
+  export const projectLink = [
+    {
+      id: 0,
+      href: "https://www.github.com",
+      iconClass: faGithub,
+      iconText: "Github1",
+      size: "2xl",
+    },
+    {
+      id: 1,
+      href: "https://www.google.com",
+      iconClass: faEarthAmericas,
+      iconText: "web2",
+      size: "2xl",
+    },
+    {
+      id: 2,
+      href: "https://www.facebook.com",
+      iconClass: faGithub,
+      iconText: "github3",
+      size: "2xl",
+    },
+    {
+      id: 3,
+      href: "https://www.linkedin.com",
+      iconClass: faGithub,
+      iconText: "Linkedin4",
+      size: "2xl",
+    },
+    {
+      id: 4,
+      href: "https://www.telegram.com",
+      iconClass: faGithub,
+      iconText: "Notion5",
+      size: "2xl",
+    },
+    {
+      id: 5,
+      href: "https://www.udemy.com",
+      iconClass: faGithub,
+      iconText: "github6",
+      size: "2xl",
+    },
+  ];
+  
 export const card = [
   {
     id: 0,
