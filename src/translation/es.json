@@ -18,72 +18,76 @@
     }
   ],
     "heroSection": {
-      "title": "¡Hola!",
-      "subTitle": "Soy Limber Martinez",
-      "smallText": "Desarrollador Full-Stack"
+      "title": "Hola, soy Limber Martínez",
+      "subTitle": "Estudiante de Full Stack Developer",
+      "smallText": "Busco oportunidades en programación como Trainee"
     },
     "aboutSection":{
-      "title": "desde Translate",
-      "subTitle": "hola ipsum dolor sit amet, consectetur adipisicing elit. Rem maiores fugit perferendis velit odio ipsa at, provident quidem, accusamus, sequi id aut laboriosam dolores. Nisi ipsa corrupti odio voluptas quae!"
+      "title": "Sobre mí",
+      "subTitle": "Estudiante apasionado de Full Stack Development en la UTN de Buenos Aires y autodidacta. Especializado en MERN Stack, busco constantemente oportunidades para mejorar y aplicar mis conocimientos en programación. ¡Listo para comenzar como trainee!"
     },
     "contactSection": {
-      "formLabelText": "Direccion Email",
-      "formExampleText": "Escribe tu email",
-      "Submit": "Enviar"
+      "formName": "Name",
+      "formNamePlaceholder": "Name",
+      "formEmail": "Email",
+      "formText": "Message",
+      "formTextArea": "Write your message here",
+      "Submit": "Submit",
+      "MessageSent": "Message sent successfully"
     },
     "footerSection": {
-      "footerTitle": "Gracias por tu visita",
-      "footerText": "Apasionado por la tecnologia y sus desafios.",
+      "footerTitle": "¡Gracias por visitar mi perfil!",
+      "footerText": "No dudes en contactarme para cualquier oportunidad de trabajo o colaboración en el ámbito del desarrollo web",
       "footerText2": "© 2023 - Todos los derechos reservados",
       "follow": "Sigueme"
     },
     "titleSection": [
       {
         "id": 0,
-        "title": "ESitulo1",
-        "subtitle": "1Lorem ipsum dolor sit amet"
+        "title": "Estudiante de Full Stack",
+        "subtitle": "Apasionado por la programación y aprendizaje"
       },
       {
         "id": 1,
-        "title": "ESitulo2",
-        "subtitle": "1Lorem ipsum dolor sit amet"
+        "title": "Proyectos de Desarrollo Web",
+        "subtitle": "Explora mi trabajo en React, Angular"
       },
       {
         "id": 2,
-        "title": "ESitulo3",
-        "subtitle": "1Lorem ipsum dolor sit amet"
+        "title": "¡Hablemos!",
+        "subtitle": "Buscando mi primera oportunidad en el mundo del desarrollo"
       }
     ],
     "cardtext": [
       {
+        "id": 0,
+        "title": "Presentación",
+        "text": "Hola, soy Limber Martínez, vivo en Dortmund, Alemania. soy de origen Latinoamericano, hablo español, alemán (B1) e inglés (B1). Amante de viajar y aprender autodidacta en desarrollo. Emocionado por comenzar mi carrera en programación"
+      },
+      {
         "id": 1,
-        "title": "ESitulo1",
-        "text": "1Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        "title": "Esta Web",
+        "text": "Desarrollé un sitio frontend con HTML, CSS, JS React y Bootstrap. Afronté retos como reutilizar tarjetas e íconos, enviar correos con la API SMTP de EmailJS y cambiar idiomas usando i18n"
       },
       {
         "id": 2,
-        "title": "ESitulo2",
-        "text": "2Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+        "title": "E-commerce",
+        "text": "Proyecto en curso de ecommerce frontend con HTML, CSS, JS React, Bootstrap. Muestra productos con tarjetas reutilizables, importa usando API de Mercado Libre y autentica usuarios con Firebase"
       },
       {
         "id": 3,
-        "title": "ESitulo3",
-        "text": "3Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        "title": "E-commerce",
+        "text": "Proyecto ecommerce Angular en desarrollo, usando HTML, CSS y Bootstrap. Incluye Home, Artículos vía API, inicio, registro, lista de compra y pedidos. Backend en planificación. Diseño responsivo"
       },
       {
         "id": 4,
-        "title": "ESitulo4",
-        "text": "4Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-      },
-      {
-        "id": 5,
         "title": "ESitulo5",
         "text": "5Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
       },
       {
-        "id": 6,
+        "id": 5,
         "title": "ESitulo6",
-        "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+        "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
       }
     ]
   }

@@ -7,8 +7,9 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase} from '@fortawesome/free-solid-svg-icons';
 import { faEarthAmericas} from '@fortawesome/free-solid-svg-icons';
-
-
+import imageEs from './assets/es.png';
+import imageEn from './assets/en.png';
+import imageDe from './assets/de.png';
 import Image1 from "./assets/image1.jpg";
 import ImageHero from "./assets/hero01.png";
 
@@ -25,19 +26,22 @@ export const heroSection = [
     image: ImageHero
   }
 ];
+export const imgLanguage = [
+  { id: 0, imageEn, imageEs, imageDe },
+];
 export const socialLinks = [
   /*Social Links */
   {
     id: 0,
-    href: "https://www.github.com",
+    href: "https://www.linkedin.com/in/limber-martinez-339866230/",
     iconClass: faLinkedin,
     iconText: "Linkedin",
     size: "2xl",
   },{
     id: 1,
-    href: "https://www.github.com",
+    href: "https://github.com/limbpuma",
     iconClass: faGithub,
-    iconText: "Html",
+    iconText: "Github",
     size: "2xl",
   },{
     id: 2,
@@ -50,35 +54,35 @@ export const socialLinks = [
   /*About*/
   {
     id: 3,
-    href: "https://www.github.com",
+    /*href: "/",*/
     iconClass: faHtml5,
     iconText: "Html",
     size: "2xl",
   },
   {
     id: 4,
-    href: "https://www.github.com",
+    /*href: "/",*/
     iconClass: faCss3,
     iconText: "Css",
     size: "2xl",
   },
   {
     id: 5,
-    href: "https://www.github.com",
+    /*href: "/",*/
     iconClass: faJs,
     iconText: "JS",
     size: "2xl",
   },
   {
     id: 6,
-    href: "https://www.github.com",
+    /*href: "/",*/
     iconClass: faNodeJs,
     iconText: "Node",
     size: "2xl",
   },
   {
     id: 7,
-    href: "https://www.github.com",
+    /*href: "/",*/
     iconClass: faDatabase,
     iconText: "Sql",
     size: "2xl",
@@ -123,42 +127,42 @@ export const socialLinks = [
       id: 0,
       href: "https://www.github.com",
       iconClass: faGithub,
-      iconText: "Github1",
+      iconText: "Github",
       size: "2xl",
     },
     {
       id: 1,
       href: "https://www.google.com",
       iconClass: faEarthAmericas,
-      iconText: "web2",
+      iconText: "web",
       size: "2xl",
     },
     {
       id: 2,
       href: "https://www.facebook.com",
       iconClass: faGithub,
-      iconText: "github3",
+      iconText: "Github",
       size: "2xl",
     },
     {
       id: 3,
       href: "https://www.linkedin.com",
-      iconClass: faGithub,
-      iconText: "Linkedin4",
+      iconClass: faEarthAmericas,
+      iconText: "web",
       size: "2xl",
     },
     {
       id: 4,
       href: "https://www.telegram.com",
       iconClass: faGithub,
-      iconText: "Notion5",
+      iconText: "Github",
       size: "2xl",
     },
     {
       id: 5,
       href: "https://www.udemy.com",
-      iconClass: faGithub,
-      iconText: "github6",
+      iconClass: faEarthAmericas,
+      iconText: "web",
       size: "2xl",
     },
   ];

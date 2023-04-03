@@ -13,17 +13,6 @@
   --secondary-font-family: 'sans-serif';
 }
 
-/* General CSS */
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 /* Text Transform */
 :root {
   --uppercase-text: uppercase;
@@ -79,6 +68,17 @@ h5 {
   text-transform: var(--uppercase-text);
 }
 
+/* General CSS */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 /* Spacing */
 :root {
   --spacing-xl: 3.2rem;
@@ -93,10 +93,9 @@ h5 {
   --border: 0.3rem;
 }
 
-/*Transition */
+/* Transition */
 :root {
---transition: all 0.3s ease-in-out;
---transform: scale(1.02);
---box-shadow:  0 0 1rem 0.15rem;
+  --transition: all 0.3s ease-in-out;
+  --transform: scale(1.02);
+  --box-shadow: 0 0 1rem 0.15rem;
 }
-

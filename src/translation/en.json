@@ -6,74 +6,78 @@
     },
     {
       "id": 1,
-      "text": "about"
+      "text": "Sobre Mi"
     },
     {
       "id": 2,
-      "text": "projects"
+      "text": "proyectos"
     },
     {
       "id": 3,
-      "text": "contact"
+      "text": "contacto"
     }
   ],
   "heroSection": {
-    "title": "Hello!",
-    "subTitle": "I'm Limber Martinez",
-    "smallText": "Full Stack Developer"
+    "title": "Hi, I'm Limber Martinez",
+    "subTitle": "Full Stack Developer Student",
+    "smallText": "Seeking opportunities in programming as a Trainee"
   },
   "aboutSection":{
-    "title": "from Translate",
-    "subTitle": "Loremi ipsum dolor sit amet, consectetur adipisicing elit. Rem maiores fugit perferendis velit odio ipsa at, provident quidem, accusamus, sequi id aut laboriosam dolores. Nisi ipsa corrupti odio voluptas quae!"
+    "title": "About me",
+    "subTitle": "Passionate Full Stack Development student at UTN Buenos Aires and self-taught. Specialized in MERN Stack, I constantly seek opportunities to improve and apply my knowledge in programming. Ready to start as a trainee!"
   },
   "contactSection": {
-    "formLabelText": "Email address",
-    "formExampleText": "Example textarea",
-    "Submit": "Submit"
+    "formName": "Name",
+    "formNamePlaceholder": "Name",
+    "formEmail": "Email",
+    "formText": "Message",
+    "formTextArea": "Write your message here",
+    "Submit": "Submit",
+    "MessageSent": "Message sent successfully"
   },
   "footerSection": {
-    "footerTitle": "Thank You for your visit",
-    "footerText": "Passionate about technology. Committed to your success.'",
+    "footerTitle": "Thank you for visiting my portfolio!",
+    "footerText": "Feel free to contact me for any questions or job opportunities",
     "footerText2": "© 2023 - All Rights Reserved",
     "follow": "Follow Me"
   },
   "titleSection": [
     {
       "id": 0,
-      "title": "ENitulo1",
-      "subtitle": "1Lorem ipsum dolor sit amet"
+      "title": "Full Stack Student",
+      "subtitle": "Passionate about programming and learning"
     },
     {
       "id": 1,
-      "title": "ENitulo2",
-      "subtitle": "1Lorem ipsum dolor sit amet"
+      "title": "Projects",
+      "subtitle": "Portfolio showcasing my React and Angular skills"
     },
     {
       "id": 2,
-      "title": "ENitulo3",
-      "subtitle": "1Lorem ipsum dolor sit amet"
+      "title": "Let's talk!",
+      "subtitle": "Seeking my first opportunity in the world of development"
     }
   ],
   "cardtext": [
     {
       "id": 0,
-      "title": "Titulo1",
-      "text": "1Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      "title": "Introduction",
+      "text": "Hi, I'm Limber Martinez, I live in Dortmund, Germany. I am of Latin American origin, I speak Spanish, German (B1), and English (B1). Love traveling and self-taught learning in development. Excited to start my career in programming"
     },
     {
       "id": 1,
-      "title": "Titulo2",
-      "text": "2Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+      "title": "This Website",
+      "text": "Developed a frontend site using HTML, CSS, JS React, and Bootstrap. Faced challenges like reusing cards and icons, sending emails through EmailJS's SMTP API, and language-switching using library i18n"
     },
     {
       "id": 2,
-      "title": "Titulo3",
-      "text": "3Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      "title": "E-commerce",
+      "text": "Ongoing ecommerce frontend project using HTML, CSS, JS React, Bootstrap. Displays products with reusable cards, imports using Mercado Libre's API, and authenticates users through Firebase"
     },
     {
       "id": 3,
-      "title": "Titulo4",
-      "text": "4Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      "title": "E-commerce",
+      "text": "Ongoing Angular ecommerce project, using HTML, CSS, and Bootstrap. Includes Home, Articles via API, login, registration, shopping list, and orders. Backend in planning stages. Responsive design and optimization expected"
     },
     {
       "id": 4,
@@ -83,7 +87,7 @@
     {
       "id": 5,
       "title": "Titulo6",
-      "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
     }
   ]
 }

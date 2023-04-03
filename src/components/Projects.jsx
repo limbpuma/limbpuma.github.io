@@ -11,12 +11,12 @@ const Projects = () => {
   return (
     <div className='container-projects align-items-center'>
       <div className='project-title-section'>
-        <TitleSection title={t("titleSection.0.title")} subtitle={t("titleSection.0.subtitle")} />
+        <TitleSection title={t("titleSection.1.title")} subtitle={t("titleSection.1.subtitle")} />
       </div>
       <Container className='mx-auto'>
-        <Row className='card-project-container row-cols-1 row-cols-md-2 row-cols-lg-3 '>
+        <Row className='card-project-container row-cols-1 row-cols-md-6 row-cols-lg-3 '>
           {card.slice(1, 4).map((link) => (
-            <Col key={link.id} className='col-12 col-md-3 col-lg-3'>
+            <Col key={link.id} className='col-12 col-md-6 col-lg-3'>
               <div className='card-projects p-3'>
                 <Card {...link} title={t(`cardtext.${link.id}.title`)} text={t(`cardtext.${link.id}.text`)} />
                 <div className='socialLinkProject d-flex justify-content-center'>

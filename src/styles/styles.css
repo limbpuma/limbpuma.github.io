@@ -182,7 +182,7 @@ p {
   color: var(--white-color);
 }
 .social-icon{
-  margin: 1rem 0;
+  margin: 2rem 0;
   border-radius: var(--border-radius);
   height: 6rem;
   width: 6rem;
@@ -214,9 +214,6 @@ p {
   transform: var(--transform);
   cursor: pointer;
 }
-.contact-form-label{
-  font-size: var(--font-size-l);
-}
 .contact-label-textarea {
   font-size: var(--font-size-l);
 }
@@ -225,6 +222,17 @@ p {
   width: 6rem;
   background-color: var(--white-color);
   color: var(--primary-color);
+}
+.imgLanguage{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.btn-language{
+  text-transform: var(--uppercase-text);
+  padding: 1rem;
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-500);
 }
 
 /* para dispositivos pequeños, como teléfonos móviles */
@@ -269,7 +277,32 @@ p {
 
 /* para dispositivos medianos, como tablets */
 @media (min-width: 576px) and (max-width: 992px) {
-
+  .container-hero{
+    margin: 6rem 0;
+    height: max-content;
+  }
+  .container-nabvar{
+    background-color: var(--primary-color);
+    }
+  .container-aboutme{
+    height: max-content;
+  }
+  .container-projects{
+    height: max-content;
+  }
+  .container-contact{
+    height: max-content;
+    margin: 2rem 0;
+  }
+  .contact-title-section:nth-last-child(2){
+    color:var(--white-color);
+  }
+  .container-contact-form{
+    height: max-content;
+  }
+  .container-footer{
+    height: max-content;
+  }
 }
 
 /* para dispositivos grandes, como laptops y pantallas de escritorio */
@@ -283,21 +316,21 @@ p {
   .container-aboutme{
     background-color: var(--secondary-color);
     display: flex;
-    height: 78rem;
+    height: 84rem;
     flex-direction: column;
     justify-content: center;
   }
   .container-projects{
     background-color: var(--tertiary-color);
     display: flex;
-    height: 78rem;
+    height: 84rem;
     flex-direction: column;
     justify-content: center;
   }
   .container-contact{
     background-color: var(--background-color);
     display: flex;
-    height: 70rem;
+    height: 72rem;
     flex-direction: column;
     justify-content: center;
   }
@@ -308,7 +341,6 @@ p {
   .container-footer{
     background-color: var(--primary-color);
     color: var(--white-color);
-    height: 12rem;
     align-items: center;
     padding: 2rem;
   }
@@ -371,5 +403,22 @@ p {
     transform: var(--transform);
     box-shadow: var(--box-shadow) var(--white-color);
   
+  }
+  .contact-form-label-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-form-label{
+    margin-left: -5rem;
+    font-size: var(--font-size-l);
+    width: 40%;
+  }
+  .btn-language:hover{
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow) var(--white-color);
+    transition: var(--transition);
+    transform: var(--transform);
   }
 }
