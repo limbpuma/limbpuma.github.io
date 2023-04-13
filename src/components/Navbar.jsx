@@ -15,7 +15,13 @@ const MyNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
         {pageLinks.map((link) => {
-        return <NavLinks  {...link} text={t(`pageLinks.${link.id}.text`)}/>
+        return (
+          <NavLinks
+            key={link.id} 
+            {...link}
+            text={t(`pageLinks.${link.id}.text`)}
+          />
+        );
       })}
           </Nav>
         </Navbar.Collapse>

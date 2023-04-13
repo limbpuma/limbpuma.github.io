@@ -7,17 +7,29 @@ import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase} from '@fortawesome/free-solid-svg-icons';
 import { faEarthAmericas} from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode} from '@fortawesome/free-solid-svg-icons';
+import { faKeyboard} from '@fortawesome/free-solid-svg-icons';
+import { faChalkboardUser} from '@fortawesome/free-solid-svg-icons';
+import { faCodeCompare} from '@fortawesome/free-solid-svg-icons';
 import imageEs from './assets/es.png';
 import imageEn from './assets/en.png';
 import imageDe from './assets/de.png';
+import Card01 from "./assets/card01.jpg";
+import Card02 from "./assets/utnba.png";
+import Card03 from "./assets/oracle-logo1.png";
+import Card04 from "./assets/coursera-logo.png";
+import Card05 from "./assets/ils-logo.png";
+import ReactImg from "./assets/react.png";
+import AngularImg from "./assets/angular.png";
 import Image1 from "./assets/image1.jpg";
 import ImageHero from "./assets/hero01.png";
 
 export const pageLinks = [
   { id: 0, href: "#home"},
-  { id: 1, href: "#about"},
-  { id: 2, href: "#projects"},
-  { id: 3, href: "#contact"},
+  { id: 1, href: "#aboutme"},
+  { id: 2, href: "#learning"},
+  { id: 3, href: "#projects"},
+  { id: 4, href: "#contact"},
 ];
 
 export const heroSection = [
@@ -29,6 +41,47 @@ export const heroSection = [
 export const imgLanguage = [
   { id: 0, imageEn, imageEs, imageDe },
 ];
+export const schoolLinks = [
+  {
+    id: 0,
+    //href: "https://www.linkedin.com/in/limber-martinez-339866230/",
+    iconClass: faLaptopCode,
+    iconText: "ils",
+    size: "2xl",
+  },{
+    id: 1,
+    //href: "https://github.com/limbpuma",
+    iconClass: faKeyboard,
+    iconText: "utn ba",
+    size: "2xl",
+  },{
+    id: 2,
+    //href: "https://www.github.com",
+    iconClass: faChalkboardUser,
+    iconText: "coursera",
+    size: "2xl",
+  },
+  {
+    id: 3,
+    //href: "https://www.linkedin.com/in/limber-martinez-339866230/",
+    iconClass: faCodeCompare,
+    iconText: "oracle",
+    size: "2xl",
+  },{
+    id: 4,
+    //href: "https://github.com/limbpuma",
+    iconClass: faGithub,
+    iconText: "Github",
+    size: "2xl",
+  },{
+    id: 5,
+    //href: "https://www.github.com",
+    iconClass: faN,
+    iconText: "Notion",
+    size: "2xl",
+  },
+];
+
 export const socialLinks = [
   /*Social Links */
   {
@@ -103,7 +156,7 @@ export const socialLinks = [
       "https://www.github1.com",
       "https://www.github2.com"
     ],
-    iconClass: faGithub,
+    iconClass: faLinkedin,
     iconText: "web",
     size: "2xl",
     cardId: 1 // indicamos a qué card corresponde este link
@@ -170,26 +223,54 @@ export const socialLinks = [
 export const card = [
   {
     id: 0,
-    image: Image1,
+    image: Card01,
   },
+  //Learning Card
   {
     id: 1,
-    image: Image1,
+    image: Card02,
+    width: '25%',
+    porcentNumber: "25%",
   },
   {
     id: 2,
-    image: Image1,
+    image: Card03,
+    width: '35%',
+    porcentNumber: "35%",
   },
   {
     id: 3,
-    image: Image1,
+    image: Card04,
+    width: '45%',
+    porcentNumber: "45%",
   },
   {
     id: 4,
-    image: Image1,
+    image: Card05,
+    width: '55%',
+    porcentNumber: "55%",
   },
   {
     id: 5,
+    image: Image1,
+    width: '65%',
+    porcentNumber: "65%",
+  },
+  //Learning Card End
+  {
+    id: 6,
+    image: ReactImg,
+  },
+  {
+    id: 7,
+    image: ReactImg,
+  },
+  {
+    id: 8,
+    image: AngularImg,
+  },
+  {
+    id: 9,
     image: Image1,
   },
 ];

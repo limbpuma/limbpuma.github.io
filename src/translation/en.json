@@ -6,25 +6,36 @@
     },
     {
       "id": 1,
-      "text": "Sobre Mi"
+      "text": "About Me"
     },
     {
       "id": 2,
-      "text": "proyectos"
+      "text": "Learning"
     },
     {
       "id": 3,
-      "text": "contacto"
+      "text": "Projects"
+    },
+    {
+      "id": 4,
+      "text": "Contact"
     }
   ],
   "heroSection": {
-    "title": "Hi, I'm Limber Martinez",
-    "subTitle": "Full Stack Developer Student",
-    "smallText": "Seeking opportunities in programming as a Trainee"
+    "title": "Limber Martínez - Web Developer",
+    "subTitle": "Growing in web development, ready for new challenges",
+    "smallText": "Discover my experience and how I'll bring value to your project"
   },
   "aboutSection":{
-    "title": "About me",
-    "subTitle": "Passionate Full Stack Development student at UTN Buenos Aires and self-taught. Specialized in MERN Stack, I constantly seek opportunities to improve and apply my knowledge in programming. Ready to start as a trainee!"
+    "title": "Passionate about web development",
+    "subTitle": "My name is Limber Martínez, I live in Germany, and I have a deep interest in programming and web development. My passion for this field began when I started a business and discovered WordPress and Shopify. As I gained skills, the world of development fascinated me even more, and I decided to specialize in it. My current goal is to master the key concepts of Full Stack Developer to focus on frontend or backend and apply my experience to future projects."
+  },
+  "learningSection":{
+    "title": "Expanding horizons",
+    "subTitle": "I finished high school and completed a middle technical degree in electromechanics before entering the world of programming. Currently, I am completing a university access course at UNED Madrid, Spain, equivalent to high school. My passion for programming motivates me to continue learning and growing in this field, exploring new challenges and opportunities to expand my skills and knowledge."
+  },
+  "pdfText":{
+    "text": "Download my Resume"
   },
   "contactSection": {
     "formName": "Name",
@@ -44,50 +55,85 @@
   "titleSection": [
     {
       "id": 0,
-      "title": "Full Stack Student",
-      "subtitle": "Passionate about programming and learning"
+      "title": "About me",
+      "subtitle": "Learn about my history and goals in the world of web development"
     },
     {
       "id": 1,
-      "title": "Projects",
-      "subtitle": "Portfolio showcasing my React and Angular skills"
+      "title": "Learning",
+      "subtitle": "Training and skills acquired"
     },
     {
       "id": 2,
-      "title": "Let's talk!",
-      "subtitle": "Seeking my first opportunity in the world of development"
+      "title": "Projects",
+      "subtitle": "Some of my work and collaborations in the development area"
+    },
+    {
+      "id": 3,
+      "title": "Contact me",
+      "subtitle": "I am available for work opportunities and collaborations in the field of web development"
     }
   ],
   "cardtext": [
     {
       "id": 0,
-      "title": "Introduction",
-      "text": "Hi, I'm Limber Martinez, I live in Dortmund, Germany. I am of Latin American origin, I speak Spanish, German (B1), and English (B1). Love traveling and self-taught learning in development. Excited to start my career in programming"
+      "title": "Personal Interests and Values",
+      "text": "Originally from Bolivia, I have over 10 years of experience in logistics. I am fluent in Spanish, have a B1 level of fluency in German, and possess high school level English proficiency. In my free time, I enjoy video games, soccer, and cycling. Perseverance and constant learning are fundamental aspects of my life, driving me to keep growing in the world of web development and programming."
     },
     {
       "id": 1,
+      "title": "UTN Full Stack Developer",
+      "text": "I am studying for a Full Stack Developer diploma at UTN in Buenos Aires, learning key skills such as HTML, CSS3, JS, React, Angular, Node, Express, and backend development.",
+      "text1": "Full Stack Developer",
+      "text2": "UTN Buenos Aires",
+      "text3": "until June 2023"
+    },
+    {
+      "id": 2,
+      "title": "Oracle Developer",
+      "text": "The Oracle One Altura Program teaches me programming logic and frontend development with JS React, while I face practical challenges and interesting projects.",
+      "text1": "React Front End Developer",
+      "text2": "Oracle One",
+      "text3": "Until October 2023"
+    },
+    {
+      "id": 3,
+      "title": "IBM Full Stack Developer",
+      "text": "Thanks to the IBM Full Stack Developer on Coursera, I am expanding my skills in areas such as cloud computing, JS, React, GitHub, Node.js Express, Python, SQL, Django, Docker, and Kubernetes.",
+      "text1": "Full Stack developer",
+      "text2": "IBM Coursera",
+      "text3": "Until October 2023"
+    },
+    {
+      "id": 4,
+      "title": "ILS Fernschule",
+      "text": "With the Amazon Career Choice Program, I completed a course at ILS Fernschule, learning HTML, CSS, JS, and key regulations for web development in Germany.",
+      "text1": "Web Developer",
+      "text2": "Amazon Career Choice",
+      "text3": "Finished 01.2023"    
+    },
+    {
+      "id": 5,
+      "title": "My background",
+      "text": "1Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua",
+      "text1": "1Introduction",
+      "text2": "Introduction2",
+      "text3": "Introduction3" 
+    },
+    {
+      "id": 6,
       "title": "This Website",
       "text": "Developed a frontend site using HTML, CSS, JS React, and Bootstrap. Faced challenges like reusing cards and icons, sending emails through EmailJS's SMTP API, and language-switching using library i18n"
     },
     {
-      "id": 2,
+      "id": 7,
       "title": "E-commerce",
       "text": "Ongoing ecommerce frontend project using HTML, CSS, JS React, Bootstrap. Displays products with reusable cards, imports using Mercado Libre's API, and authenticates users through Firebase"
     },
     {
-      "id": 3,
+      "id": 8,
       "title": "E-commerce",
-      "text": "Ongoing Angular ecommerce project, using HTML, CSS, and Bootstrap. Includes Home, Articles via API, login, registration, shopping list, and orders. Backend in planning stages. Responsive design and optimization expected"
-    },
-    {
-      "id": 4,
-      "title": "Titulo5",
-      "text": "5Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
-    },
-    {
-      "id": 5,
-      "title": "Titulo6",
-      "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+      "text": "Ongoing Angular ecommerce project, using HTML, CSS, and Bootstrap. Includes Home, Articles via API, login, registration, shopping list, and orders. Backend in planning stages. Responsive design expected"
     }
   ]
 }

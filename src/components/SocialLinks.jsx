@@ -6,7 +6,7 @@ const SocialLink = ({ href, iconClass, iconText, size}) => {
   return (
     <div className='row'>
       <div className='text-center'>
-        <ul>
+        <ul className='p-3'>
           <a
             href={href}
             target="_blank"

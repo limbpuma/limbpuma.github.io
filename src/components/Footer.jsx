@@ -6,19 +6,19 @@ import i18n from "../translation/i18n";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-      <div className="container-footer">
-        <div className="row mx-auto">
-          <div className="col-md-6 text-center d-flex flex-column justify-content-center">
+      <div className="container-footer ">
+        <div className="row align-items-center">
+          <div className="col-md-6 text-center">
             <h5 className="">{t("footerSection.footerTitle")}</h5>
             <h5>{t("footerSection.footerText")}</h5>
             <hr className="border-light" />
             <h5>{t("footerSection.footerText2")}</h5>
           </div>
-          <div className="col-md-6 d-flex flex-column justify-content-center text-center p-2">
-            <h5 className="">{t("footerSection.follow")}</h5>
+          <div className="col-md-6  text-center">
+            <h5 className="mb-2 mt-2">{t("footerSection.follow")}</h5>
             <div className="socialLinkFooter d-flex justify-content-center align-items-center">
               {socialLinks.slice(0, 2).map((link) => (
-                <div key={link.id} className="">
+                <div className='my-2' key={link.id}>
                   <SocialLink {...link} />
                 </div>
               ))}

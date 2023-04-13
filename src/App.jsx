@@ -6,19 +6,24 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Learning from './components/Learning';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 
+
 function App() {
   return (
-    <div className='container-fluid'>
-      <MyNavbar />
-      <Hero />
+    <>
+    <MyNavbar />
+    <Hero />
+    <div className='container'>
       <AboutMe />
+      <Learning/>
       <Projects />
       <Contact />
-      <Footer />
     </div>
+    <Footer />
+    </>
   );
 }
 

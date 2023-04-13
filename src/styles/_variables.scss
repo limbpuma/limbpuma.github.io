@@ -1,10 +1,20 @@
 /* Colors */
 :root {
+  
+  --primary-color: #87CEEB;
+  --secondary-color: #1E90FF;
+  --tertiary-color: #333333; /*sombras y bordes - subtitulos*/
+  --quaternary-color: #000000; /*texto principal*/
+  --extra-color: #F8F8F8;/*cards*/
+  
+  
+  /*
   --primary-color: #F36962;
   --secondary-color: #6F5A93;
   --tertiary-color: #343841;
-  --quaternary-color: #57A5B4;
-  --white-color: #fff;
+   --quaternary-color: #57A5B4;
+    --white-color: #fff;
+    */
 }
 
 /* Fonts */
@@ -90,12 +100,22 @@ html {
 /* Border radius */
 :root {
   --border-radius: 1rem;
-  --border: 0.3rem;
+  --border: 0.2rem;
 }
 
 /* Transition */
 :root {
   --transition: all 0.3s ease-in-out;
   --transform: scale(1.02);
-  --box-shadow: 0 0 1rem 0.15rem;
+}
+
+/* Shadows */
+:root {
+  --box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+  --webkit-box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+  --moz-box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+/* Button Shadows */
+  --box-shadow-1: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  --webkit-box-shadow-1: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  --moz-box-shadow-1: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
 }

@@ -10,21 +10,32 @@
     },
     {
       "id": 2,
-      "text": "projectos"
+      "text": "Aprendizaje"
     },
     {
       "id": 3,
+      "text": "projectos"
+    },
+    {
+      "id": 4,
       "text": "contacto"
     }
   ],
     "heroSection": {
-      "title": "Hola, soy Limber Martínez",
-      "subTitle": "Estudiante de Full Stack Developer",
-      "smallText": "Busco oportunidades en programación como Trainee"
+      "title": "Limber Martínez - Desarrollador web",
+      "subTitle": "Creciendo en desarrollo web, listo para nuevos retos",
+      "smallText": "Conoce mi experiencia y cómo aportaré valor a tu proyecto"
     },
     "aboutSection":{
-      "title": "Sobre mí",
-      "subTitle": "Estudiante apasionado de Full Stack Development en la UTN de Buenos Aires y autodidacta. Especializado en MERN Stack, busco constantemente oportunidades para mejorar y aplicar mis conocimientos en programación. ¡Listo para comenzar como trainee!"
+      "title": "Apasionado por el desarrollo web",
+      "subTitle": "Me llamo Limber Martínez, resido en Alemania y estoy profundamente interesado en la programación y el desarrollo web. Mi pasión por este campo comenzó cuando emprendí un negocio y descubrí WordPress y Shopify. A medida que adquiría habilidades, me fascinó aún más el mundo del desarrollo y decidí especializarme en él. Mi meta actual es dominar los conceptos clave de Full Stack Developer para enfocarme en el frontend o backend y aplicar mi experiencia en futuros proyectos."
+    },
+    "learningSection":{
+      "title": "Expandiendo horizontes",
+      "subTitle": "Finalicé la secundaria y realicé un técnico medio en electromecánica antes de adentrarme en el mundo de la programación. Actualmente, estoy completando un curso de acceso a la universidad en la UNED Madrid, España, equivalente al bachillerato. Mi pasión por la programación me motiva a seguir aprendiendo y creciendo en este campo, explorando nuevos desafíos y oportunidades para ampliar mis habilidades y conocimientos."
+    },
+    "pdfText":{
+      "text": "Descarga mi CV"
     },
     "contactSection": {
       "formName": "Name",
@@ -32,7 +43,7 @@
       "formEmail": "Email",
       "formText": "Message",
       "formTextArea": "Write your message here",
-      "Submit": "Submit",
+      "Submit": "Enviar",
       "MessageSent": "Message sent successfully"
     },
     "footerSection": {
@@ -44,50 +55,85 @@
     "titleSection": [
       {
         "id": 0,
-        "title": "Estudiante de Full Stack",
-        "subtitle": "Apasionado por la programación y aprendizaje"
+        "title": "Acerca de mí",
+        "subtitle": "Descubre mi historia y mis objetivos en el mundo del desarrollo web"
       },
       {
         "id": 1,
-        "title": "Proyectos de Desarrollo Web",
-        "subtitle": "Explora mi trabajo en React, Angular"
+        "title": "Aprendizaje",
+        "subtitle": "Formación y habilidades adquiridas"
       },
       {
         "id": 2,
-        "title": "¡Hablemos!",
-        "subtitle": "Buscando mi primera oportunidad en el mundo del desarrollo"
+        "title": "Proyectos",
+        "subtitle": "Algunos de mis trabajos y colaboraciones en el área de desarrollo"
+      },
+      {
+        "id": 3,
+        "title": "Contáctame",
+        "subtitle": "Estoy disponible para oportunidades de trabajo y colaboraciones en el ámbito del desarrollo web"
       }
     ],
     "cardtext": [
       {
         "id": 0,
-        "title": "Presentación",
-        "text": "Hola, soy Limber Martínez, vivo en Dortmund, Alemania. soy de origen Latinoamericano, hablo español, alemán (B1) e inglés (B1). Amante de viajar y aprender autodidacta en desarrollo. Emocionado por comenzar mi carrera en programación"
+        "title": "Intereses personales y valores",
+        "text": "Originario de Bolivia, cuento con más de 10 años de experiencia en logística. Domino el español, tengo un nivel fluido B1 de alemán y manejo el inglés a nivel bachillerato. Disfruto de los videojuegos, el fútbol y el ciclismo en mi tiempo libre. La perseverancia y el constante aprendizaje son aspectos fundamentales en mi vida, lo que me impulsa a seguir creciendo en el mundo del desarrollo web y la programación."
       },
       {
         "id": 1,
+        "title": "Full Stack Developer",
+        "text": "Estudio la diplomatura en Full Stack Developer en la UTN de Buenos Aires, aprendiendo habilidades clave como HTML, CSS3, JS, React, Angular, Node, Express y desarrollo backend.",
+        "text1": "Full Stack Developer",
+        "text2": "UTN",
+        "text3": "hasta Junio 2023"
+      },
+      {
+        "id": 2,
+        "title": "Oracle Developer",
+        "text": "La Beca Oracle One Altura me enseña lógica de programación y desarrollo frontend con JS React, a la vez que me enfrento a desafíos prácticos y proyectos interesantes.",
+        "text1": "React Front End Developer",
+        "text2": "Oracle One",
+        "text3": "Hasta Octubre 2023"
+      },
+      {
+        "id": 3,
+        "title": "IBM Full Stack Developer",
+        "text": "Gracias a la beca IBM Full Stack Developer en Coursera, amplío mis habilidades en áreas como cloud computing, JS, React, GitHub, Node.js Express, Python, SQL, Django, Docker y Kubernetes.",
+        "text1": "Full Stack developer",
+        "text2": "IBM Coursera",
+        "text3": "Hasta Octubre 2023"
+      },
+      {
+        "id": 4,
+        "title": "Web developer",
+        "text": "Con la Beca Amazon Career Choice, completé un curso en ILS Fernschule, aprendiendo HTML, CSS, JS y las normativas clave para el desarrollo web en Alemania.",
+        "text1": "Web Developer",
+      "text2": "Amazon Career Choice",
+      "text3": "Terminado 01.2023"
+      },
+      {
+        "id": 5,
+        "title": "Web Developer",
+        "text": "Con la Beca Amazon Career Choice, completé un curso en ILS Fernschule, aprendiendo HTML, CSS, JS y las normativas clave para el desarrollo web en Alemania.",
+        "text1": "Web Developer",
+      "text2": "Amazon Career Choice",
+      "text3": "Terminado 01.2023"
+      },
+      {
+        "id": 6,
         "title": "Esta Web",
         "text": "Desarrollé un sitio frontend con HTML, CSS, JS React y Bootstrap. Afronté retos como reutilizar tarjetas e íconos, enviar correos con la API SMTP de EmailJS y cambiar idiomas usando i18n"
       },
       {
-        "id": 2,
+        "id": 7,
         "title": "E-commerce",
         "text": "Proyecto en curso de ecommerce frontend con HTML, CSS, JS React, Bootstrap. Muestra productos con tarjetas reutilizables, importa usando API de Mercado Libre y autentica usuarios con Firebase"
       },
       {
-        "id": 3,
+        "id": 8,
         "title": "E-commerce",
         "text": "Proyecto ecommerce Angular en desarrollo, usando HTML, CSS y Bootstrap. Incluye Home, Artículos vía API, inicio, registro, lista de compra y pedidos. Backend en planificación. Diseño responsivo"
-      },
-      {
-        "id": 4,
-        "title": "ESitulo5",
-        "text": "5Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
-      },
-      {
-        "id": 5,
-        "title": "ESitulo6",
-        "text": "6Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
       }
     ]
   }

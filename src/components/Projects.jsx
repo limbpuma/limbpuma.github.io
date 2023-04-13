@@ -9,19 +9,19 @@ import { useTranslation } from "react-i18next";
 const Projects = () => {
   const { t } = useTranslation();
   return (
-    <div className='container-projects align-items-center'>
+    <div id="projects" className='container-projects align-items-center justify-content-around'>
       <div className='project-title-section'>
-        <TitleSection title={t("titleSection.1.title")} subtitle={t("titleSection.1.subtitle")} />
+        <TitleSection title={t("titleSection.2.title")} subtitle={t("titleSection.2.subtitle")} />
       </div>
       <Container className='mx-auto'>
-        <Row className='card-project-container row-cols-1 row-cols-md-6 row-cols-lg-3 '>
-          {card.slice(1, 4).map((link) => (
-            <Col key={link.id} className='col-12 col-md-6 col-lg-3'>
-              <div className='card-projects p-3'>
+      <Row className='card-project-container row-cols-1 row-cols-md-6 row-cols-lg-3 justify-content-around'>
+          {card.slice(6, 9).map((link) => (
+            <Col key={link.id} className='col-12 col-md-6 col-lg-3 col-xl-3 h-100'>
+              <div className='card-projects p-3 h-100'>
                 <Card {...link} title={t(`cardtext.${link.id}.title`)} text={t(`cardtext.${link.id}.text`)} />
                 <div className='socialLinkProject d-flex justify-content-center'>
-                  {projectLink.slice((link.id - 1) * 2, (link.id - 1) * 2 + 2).map((link) => (
-                    <div key={link.id}>
+                  {projectLink.slice((link.id - 6) * 2, (link.id - 6) * 2 + 1).map((link) => ( //here can be icons added (link.id - 6) * 2 + 2)
+                    <div className='my-3' key={link.id}>
                       <SocialLink {...link} title={(`projectLink.${link.href}.title`)} />
                     </div>
                   ))}

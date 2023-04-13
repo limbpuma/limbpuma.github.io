@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { useTranslation } from 'react-i18next';
 import { Form, Container } from 'react-bootstrap';
 
+
 import TitleSection from './TitleSection';
 
 const Contact = () => {
@@ -27,28 +28,28 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-fluid container-contact align-items-center">
+    <div id="contact" className="container-fluid container-contact align-items-center justify-content-around">
       <div className="contact-title-section">
-        <TitleSection title={t('titleSection.2.title')} subtitle={t('titleSection.2.subtitle')} />
+        <TitleSection title={t('titleSection.3.title')} subtitle={t('titleSection.3.subtitle')} />
       </div>
       <Container className="container-contact-form text-center">
         <Form ref={form} onSubmit={sendEmail}>
           <div className="contact-form-label-input mb-5">
-            <Form.Label htmlFor="exampleFormControlInput1" className="contact-form">
+            <Form.Label htmlFor="exampleFormControlInput1" className="contact-form ">
               <h3>{t('contactSection.formName')}</h3>
             </Form.Label>
-            <Form.Control type="text" placeholder={t('contactSection.formNamePlaceholder')} name="user_name" className="contact-form-label" required />
+            <Form.Control type="text" placeholder={t('contactSection.formNamePlaceholder')} name="user_name" className="contact-form-label mb-3 p-2" required />
             <Form.Label htmlFor="exampleFormControlInput1" className="contact-form">
               <h3>{t('contactSection.formEmail')}</h3>
             </Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" name="user_email" className="contact-form-label" required />
+            <Form.Control type="email" placeholder="name@example.com" name="user_email" className="contact-form-label p-2" required />
           </div>
-          <div className="form-labetl-text mb-3">
+          <div className="form-labetl-text mb-3 mt-3">
             <Form.Label htmlFor="exampleFormControlTextarea1" className="form-label">
               <h3>{t('contactSection.formText')}</h3>
             </Form.Label>
             <Form.Control as="textarea" rows={3} placeholder={t('contactSection.formTextArea')} id="exampleFormControlTextarea1" name="message" className="contact-label-textarea" required />
-            <button type="submit" className="btn btn-custom mt-5 w-50" value="Send">
+            <button type="submit" className="btn-custom mt-5 w-50" value="Send">
               {messageSent ? t('contactSection.MessageSent') : t('contactSection.Submit')}
             </button>
           </div>
