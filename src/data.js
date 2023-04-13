@@ -206,7 +206,7 @@ export const socialLinks = [
     },
     {
       id: 4,
-      href: "https://www.telegram.com",
+      href: "https://github.com/limbpuma/AngularStore",
       iconClass: faGithub,
       iconText: "Github",
       size: "2xl",
