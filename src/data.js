@@ -229,26 +229,26 @@ export const card = [
   {
     id: 1,
     image: Card02,
-    width: '25%',
-    porcentNumber: "25%",
-  },
-  {
-    id: 2,
-    image: Card03,
-    width: '35%',
-    porcentNumber: "35%",
-  },
-  {
-    id: 3,
-    image: Card04,
     width: '45%',
     porcentNumber: "45%",
   },
   {
+    id: 2,
+    image: Card03,
+    width: '25%',
+    porcentNumber: "25%",
+  },
+  {
+    id: 3,
+    image: Card04,
+    width: '25%',
+    porcentNumber: "25%",
+  },
+  {
     id: 4,
     image: Card05,
-    width: '55%',
-    porcentNumber: "55%",
+    width: '100%',
+    porcentNumber: "100%",
   },
   {
     id: 5,

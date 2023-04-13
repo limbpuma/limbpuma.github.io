@@ -39,11 +39,9 @@ const Learning = () => {
               <div xs={12} className='carousel-inner'>
                 {card.slice(1, 5).map((link, index) => (
                   <div key={link.id} className={`carousel-item ${activeIndex === index ? 'active' : ''}`}>
-                    <div className='card-learning p-3'>
+                    <div className='card-learning p-3 d-flex flex-column'>
                       <Card className='card-learning-card' {...link} title={t(`cardtext.${link.id}.title`)} text={t(`cardtext.${link.id}.text`)} />
-                      <div className='socialLinkProject d-flex justify-content-center'>
                         <CardLearning {...link} text1={t(`cardtext.${link.id}.text1`)} text2={t(`cardtext.${link.id}.text2`)} text3={t(`cardtext.${link.id}.text3`)}/>
-                      </div>
                     </div>
                     <ol className='carousel-indicators'>
                       {card.slice(1, 5).map((_, index) => (

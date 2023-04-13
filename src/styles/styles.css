@@ -79,7 +79,9 @@ p {
   -moz-box-shadow: var(--moz-box-shadow);
   margin: 2rem auto;
 }
-
+.card-learning{
+  height: 50rem;
+}
 /* Estilos para la barra de navegación */
 .container-nabvar {
   background-color: var(--secondary-color);
