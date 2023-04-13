@@ -178,7 +178,7 @@ export const socialLinks = [
   export const projectLink = [
     {
       id: 0,
-      href: "https://www.github.com",
+      href: "https://github.com/limbpuma/web",
       iconClass: faGithub,
       iconText: "Github",
       size: "2xl",
@@ -192,7 +192,7 @@ export const socialLinks = [
     },
     {
       id: 2,
-      href: "https://www.facebook.com",
+      href: "https://github.com/limbpuma/UTN-React",
       iconClass: faGithub,
       iconText: "Github",
       size: "2xl",
