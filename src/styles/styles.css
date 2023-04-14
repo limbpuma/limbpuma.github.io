@@ -15,6 +15,9 @@ p {
   color: var(--extra-color);
 }
 /* Estilos para imágenes */
+.logo-img{
+  width: 5rem;
+}
 .hero-img-custom {
   height: 100vh;
   object-fit: cover;

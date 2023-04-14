@@ -16,13 +16,14 @@ import imageEn from './assets/en.png';
 import imageDe from './assets/de.png';
 import Card01 from "./assets/card01.jpg";
 import Card02 from "./assets/utnba.png";
-import Card03 from "./assets/oracle-logo1.png";
+import Card03 from "./assets/oracle-logo.png";
 import Card04 from "./assets/coursera-logo.png";
 import Card05 from "./assets/ils-logo.png";
 import ReactImg from "./assets/react.png";
 import AngularImg from "./assets/angular.png";
 import Image1 from "./assets/image1.jpg";
 import ImageHero from "./assets/hero01.png";
+import logoNav from "./assets/limber2.png";
 
 export const pageLinks = [
   { id: 0, href: "#home"},
@@ -36,6 +37,12 @@ export const heroSection = [
   {
     id: 1,
     image: ImageHero
+  }
+];
+export const logoSection = [
+  {
+    id: 1,
+    image: logoNav,
   }
 ];
 export const imgLanguage = [
